@@ -163,5 +163,8 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Serving on port ${port}`)
 })
-
-
+// app.get('/makecampground', async (req, res) => {
+//     const camp = new Campground({ title: 'My backyard', description: 'cheap camping' });
+//     await camp.save();
+//     res.send(camp);
+// })
